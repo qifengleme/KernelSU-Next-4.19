@@ -59,7 +59,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
         mkdir clang-aosp
-        git clone https://github.com/tomxi1997/Toolchain.git clang-aosp --depth=1
+        git clone https://github.com/tomxi1997/build-aosp-clang-for-arm64/releases/download/v14/clang-r487747.tar.xz clang-aosp --depth=1
           
         
 
