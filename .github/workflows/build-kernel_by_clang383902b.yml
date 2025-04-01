@@ -1,4 +1,4 @@
-name: Build kernel by clang-r383902b
+name: Build kernel by clang-r787747
 on:
   watch:
     types: [started]
@@ -55,7 +55,7 @@ jobs:
 
   
 
-    - name: Download clang-383902b
+    - name: Download clang-r787747
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
         mkdir clang-aosp
